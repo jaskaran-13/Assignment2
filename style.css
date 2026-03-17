@@ -27,3 +27,19 @@ margin:auto;
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 text-align:left;
 }
+/* STEP 26: Label Formatting */
+
+label{
+font-weight:bold;
+display:block;
+margin-top:10px;
+}
+
+
+/* STEP 27: Input Styling */
+
+select, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+}
