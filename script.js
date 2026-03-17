@@ -82,3 +82,19 @@ document.querySelectorAll(".topping:checked").forEach(item => {
 toppings.push(item.value);
 
 });
+// ==========================================
+// STEP 21: Create EnergyBowl Object
+
+// ==========================================
+
+let bowl = new EnergyBowl(size, base, fruits, toppings, protein, sweetener, instructions);
+
+
+
+// ==========================================
+// STEP 22:display order summary and output rendering
+// ==========================================
+
+document.getElementById("output").innerHTML = bowl.getDescription();
+
+});
