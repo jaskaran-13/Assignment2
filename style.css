@@ -1,0 +1,11 @@
+/* ==========================================
+STEP 23: Basic Page Styling
+Vishal Malhotra responsible for designing
+========================================== */
+
+body{
+font-family: Arial, sans-serif;
+background:#100f0f;
+padding:40px;
+text-align:center;
+}
