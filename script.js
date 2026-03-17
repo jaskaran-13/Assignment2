@@ -46,3 +46,13 @@ return `
 document.getElementById("bowlForm").addEventListener("submit", function(event){
 
 event.preventDefault();
+// ==========================================
+// STEP 18: Capture Dropdown Input Values
+// Jaswinder Singh
+// ==========================================
+
+let size = document.getElementById("size").value;
+let base = document.getElementById("base").value;
+let protein = document.getElementById("protein").value;
+let sweetener = document.getElementById("sweetener").value;
+let instructions = document.getElementById("instructions").value;
