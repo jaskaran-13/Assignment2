@@ -43,3 +43,32 @@ width:100%;
 padding:8px;
 margin-top:5px;
 }
+/* STEP 28: Button Styling */
+
+button{
+margin-top:15px;
+padding:10px;
+width:100%;
+background:#fcfcfc;
+color:white;
+border:none;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2a3ea2;
+}
+
+
+/* STEP 29: Order Output Box */
+
+#output{
+margin-top:30px;
+background:white;
+padding:20px;
+border-radius:10px;
+width:400px;
+margin:auto;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
