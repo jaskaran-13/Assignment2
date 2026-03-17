@@ -38,3 +38,11 @@ return `
 }
 
 }
+// ==========================================
+// STEP 17: Capture Form Submission
+// Jaswinder Singh coding for form handling and validation 
+// ==========================================
+
+document.getElementById("bowlForm").addEventListener("submit", function(event){
+
+event.preventDefault();
