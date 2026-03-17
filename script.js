@@ -56,3 +56,29 @@ let base = document.getElementById("base").value;
 let protein = document.getElementById("protein").value;
 let sweetener = document.getElementById("sweetener").value;
 let instructions = document.getElementById("instructions").value;
+// ==========================================
+// STEP 19: Capture Selected Fruits
+
+// ==========================================
+
+let fruits = [];
+
+document.querySelectorAll(".fruit:checked").forEach(item => {
+
+fruits.push(item.value);
+
+});
+
+
+// ==========================================
+// STEP 20: Capture Selected Toppings
+
+// ==========================================
+
+let toppings = [];
+
+document.querySelectorAll(".topping:checked").forEach(item => {
+
+toppings.push(item.value);
+
+});
